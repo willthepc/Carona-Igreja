@@ -104,9 +104,9 @@ const locais = [
     },
     {
         nome: "Marise",
-        endereco: "Rua Inula, 7",
+        endereco: "Rua Inula, 48",
         numero: "11 98997-0881",
-        coords: [-23.513270717668977, -46.44630732724521]
+        coords: [-23.51325235531458, -46.446264738317666]
     }
 ];
 
@@ -129,3 +129,4 @@ locais.forEach(function(local) {
         marker.bindPopup(conteudoPopup);
     }
 });
+

@@ -55,7 +55,7 @@ const locais = [
         coords: [-23.536038201498194, -46.46020428480048]
     },
     {
-        nome: "José Lúcio e Josefa",
+        nome: "José Lúcio, Josefa e Valéria",
         endereco: "Rua Arte do Sol, 19 D",
         numero: "11 96217-5991",
         coords: [-23.52788578836052, -46.460886718004815] 

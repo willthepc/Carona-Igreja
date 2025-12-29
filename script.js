@@ -91,6 +91,11 @@ const locais = [
         nome: "Maria do Carmo",
         endereco: "Rua Paranátama, 175",
         coords: [-23.545151759033814, -46.45524142809184]
+    },
+    {
+        nome: "Marise",
+        endereco: "Rua Inula, 7",
+        coords: [-23.513270717668977, -46.44630732724521]
     }
 ];
 

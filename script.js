@@ -22,11 +22,11 @@ var iconPessoa = L.divIcon({
 });
 
 
-var iconIgreja = L.divIcon({
-    className: 'custom-icon-igreja',
-    html: '<div style="font-size: 40px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">✝️</div>',
-    iconSize: [40, 50],
-    iconAnchor: [20, 50]
+var iconIgreja = L.icon({
+    iconUrl: 'icone-igreja.png',
+    iconSize:     [40, 40],
+    iconAnchor:   [20, 40],
+    popupAnchor:  [0, -40]
 });
 
 

@@ -80,7 +80,7 @@ window.gerenciarCarona = async (id, acao, nome) => {
     
     // 2. AÇÃO DE CANCELAR (REVERTER)
     else if (acao === 'cancelar') {
-        const senha = prompt("🔒 Essa pessoa já foi Adotada!\nDigite a senha de administrador para cancelar esta carona:");
+        const senha = prompt("🔒 Essa pessoa já foi Adotada!<br><br>Digite a senha de administrador para cancelar esta carona:");
         
         if (senha === SENHA_ADMIN) {
             try {

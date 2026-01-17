@@ -122,7 +122,7 @@ locais.forEach(local => {
                     ${btnHtml}
                     <br>
                     <br>
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(local.endereco)}" target="_blank" style="color:blue;text-decoration: none;">Traçar Rota da Sua Casa</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(local.endereco)}" target="_blank" style="color:blue;text-decoration: none;">Traçar Rota da Sua Casa</a>
                 </div>
             `;
             
@@ -143,5 +143,6 @@ locais.forEach(local => {
         });
     }
 });
+
 
 
